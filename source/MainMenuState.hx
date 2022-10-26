@@ -274,11 +274,11 @@ class MainMenuState extends MusicBeatState
                 						PlayState.storyPlaylist = ['scopophobia', 'ommetaphobia', 'cleithrophobia'];
                 						PlayState.isStoryMode = true;
 										
-                						PlayState.storyDifficulty = 2;
+                						var diffic = "-hard";
 
-										var difficulty:String = CoolUtil.getDifficultyFilePath();
+										PlayState.storyDifficulty = 2;
 
-                						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + difficulty, PlayState.storyPlaylist[0].toLowerCase());
+                						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
                 						PlayState.campaignScore = 0;
                 						PlayState.campaignMisses = 0;
                							new FlxTimer().start(1, function(tmr:FlxTimer)
