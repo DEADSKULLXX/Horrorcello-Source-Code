@@ -1,0 +1,36 @@
+{
+	"song": {
+		"events": [
+			[
+				90666.6666666666,
+				[
+					[
+						"Hide Hud",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				101750,
+				[
+					[
+						"Replace stage layer",
+						"blackbg",
+						"doors"
+					]
+				]
+			],
+			[
+				101916.666666667,
+				[
+					[
+						"Change Character",
+						"1",
+						"cutscene"
+					]
+				]
+			]
+		]
+	}
+}

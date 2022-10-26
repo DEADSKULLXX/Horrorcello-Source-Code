@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplashes.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="note splash blue 10000" x="0" y="0" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 10001" x="98" y="0" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 10002" x="223" y="0" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 10003" x="405" y="0" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 20000" x="597" y="0" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 20001" x="695" y="0" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 20002" x="820" y="0" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash blue 20003" x="1002" y="0" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 10000" x="1194" y="0" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 10001" x="1292" y="0" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 10002" x="1417" y="0" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 10003" x="1599" y="0" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 20000" x="1791" y="0" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 20001" x="1889" y="0" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 20002" x="0" y="227" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash green 20003" x="182" y="227" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 10000" x="374" y="227" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 10001" x="472" y="227" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 10002" x="597" y="227" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 10003" x="779" y="227" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 20000" x="971" y="227" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 20001" x="1069" y="227" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 20002" x="1194" y="227" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash purple 20003" x="1376" y="227" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 10000" x="1568" y="227" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 10001" x="1666" y="227" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 10002" x="1791" y="227" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 10003" x="0" y="454" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 20000" x="192" y="454" width="68" height="87" frameX="-137" frameY="-133" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 20001" x="290" y="454" width="95" height="130" frameX="-126" frameY="-102" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 20002" x="415" y="454" width="152" height="187" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+	<SubTexture name="note splash red 20003" x="597" y="454" width="162" height="197" frameX="-89" frameY="-79" frameWidth="162" frameHeight="197"/>
+</TextureAtlas>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Cutscenes.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BGHORROR_CUTSCENES0000" x="0" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0001" x="1300" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0002" x="2600" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0003" x="3900" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0004" x="5200" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0005" x="6500" y="0" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0006" x="0" y="1148" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0007" x="1300" y="1148" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0008" x="2600" y="1148" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0009" x="3900" y="1148" width="1300" height="1148" frameX="0" frameY="0" frameWidth="1324" frameHeight="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0010" x="5200" y="1148" width="1324" height="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0011" x="6524" y="1148" width="1324" height="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0012" x="0" y="2296" width="1324" height="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0013" x="1324" y="2296" width="1324" height="1148"/>
+	<SubTexture name="BGHORROR_CUTSCENES0014" x="2648" y="2296" width="1324" height="1148"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menu_story_mode.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="story_mode basic0000" x="0" y="0" width="445" height="163" frameX="-47" frameY="-47" frameWidth="544" frameHeight="262"/>
+	<SubTexture name="story_mode white0001" x="445" y="0" width="544" height="262"/>
+</TextureAtlas>

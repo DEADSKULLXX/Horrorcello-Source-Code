@@ -1,0 +1,50 @@
+{
+	"songs": [
+		[
+			"Scopophobia",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Ommetaphobia",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Cleithrophobia",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "",
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"storyName": "Big Guy",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

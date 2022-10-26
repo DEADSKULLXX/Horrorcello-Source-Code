@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				87,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BGHORROR_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				5
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BGHORROR_LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				145,
+				4
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BGHORROR_DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				107,
+				5
+			],
+			"anim": "left",
+			"fps": 24,
+			"name": "BGHORROR_LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				124,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BGHORROR_UP"
+		},
+		{
+			"offsets": [
+				124,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BGHORROR_RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/horrorcello",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "placeholder",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		41,
+		0
+	],
+	"camera_position": [
+		-360,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
