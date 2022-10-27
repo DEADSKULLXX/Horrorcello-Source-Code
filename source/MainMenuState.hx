@@ -264,27 +264,12 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										//var songArray:Array<String> = [];
-                						//var leWeek:Array<Dynamic> = WeekData.weeksLoaded.get(WeekData.weeksList[0]).songs; //only change 0 above to have other weeks u want
-                						//for (i in 0...leWeek.length) {
-                    					//songArray.push(leWeek[i][0]);
-                						//}
-
-                						// Nevermind that's stupid lmao
                 						PlayState.storyPlaylist = ['scopophobia', 'ommetaphobia', 'cleithrophobia'];
                 						PlayState.isStoryMode = true;
-										
-                						var diffic = "-hard";
-
 										PlayState.storyDifficulty = 2;
 
-                						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + diffic, PlayState.storyPlaylist[0].toLowerCase());
-                						PlayState.campaignScore = 0;
-                						PlayState.campaignMisses = 0;
-               							new FlxTimer().start(1, function(tmr:FlxTimer)
-                						{
+                						PlayState.SONG = Song.loadFromJson(PlayState.storyPlaylist[0].toLowerCase() + "-hard", PlayState.storyPlaylist[0].toLowerCase());
                     					LoadingState.loadAndSwitchState(new PlayState(), true);
-               	 						});
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									case 'credits':

@@ -87,7 +87,8 @@ class CreditsState extends MusicBeatState
 			['Honkish',			'Honkish',			"1st Phase Song", 'https://twitter.com/H0nkish', 'FFFFFF'],
 			['1up Cartoons',			'1up',		"2nd Phase Song", 'https://twitter.com/1upCartoons', 'FFFFFF'],
 			['DEAD SKULLXX',			'Deadskullxx',		"Programmer & Main Menu Musician",	'https://www.youtube.com/DEADSKULLXX', 'FFFFFF'],
-			['HexT',			'HexT',		"Charter & Sprite Editor",	'https://twitter.com/HexTatile', 'FFFFFF']
+			['HexT',			'HexT',		"Charter & Sprite Editor",	'https://twitter.com/HexTatile', 'FFFFFF'],
+			['Skyanne',			'Skyanne',		"Bug Fixing",	'https://twitter.com/SkyanneGamedev', 'FFFFFF']
 		];
 		
 		for(i in pisspoop){

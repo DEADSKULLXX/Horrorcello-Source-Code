@@ -10,26 +10,6 @@
 						""
 					]
 				]
-			],
-			[
-				101750,
-				[
-					[
-						"Replace stage layer",
-						"blackbg",
-						"doors"
-					]
-				]
-			],
-			[
-				101916.666666667,
-				[
-					[
-						"Change Character",
-						"1",
-						"cutscene"
-					]
-				]
 			]
 		]
 	}

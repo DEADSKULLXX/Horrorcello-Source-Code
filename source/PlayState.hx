@@ -3743,22 +3743,23 @@ class PlayState extends MusicBeatState
 	public function endSong():Void
 	{
 		//Should kill you if you tried to cheat
-		if(!startingSong) {
-			notes.forEach(function(daNote:Note) {
-				if(daNote.strumTime < songLength - Conductor.safeZoneOffset) {
-					health -= 0.05 * healthLoss;
-				}
-			});
-			for (daNote in unspawnNotes) {
-				if(daNote.strumTime < songLength - Conductor.safeZoneOffset) {
-					health -= 0.05 * healthLoss;
-				}
-			}
+		//Removed because of the skip button lole
+		//if(!startingSong) {
+		//	notes.forEach(function(daNote:Note) {
+		//		if(daNote.strumTime < songLength - Conductor.safeZoneOffset) {
+		//			health -= 0.05 * healthLoss;
+		//		}
+		//	});
+		//	for (daNote in unspawnNotes) {
+		//		if(daNote.strumTime < songLength - Conductor.safeZoneOffset) {
+		//			health -= 0.05 * healthLoss;
+		//		}
+		//	}
 
-			if(doDeathCheck()) {
-				return;
-			}
-		}
+		//	if(doDeathCheck()) {
+		//		return;
+		//	}
+		//}
 
 		timeBarBG.visible = false;
 		timeBar.visible = false;
@@ -3809,7 +3810,8 @@ class PlayState extends MusicBeatState
 				campaignScore += songScore;
 				campaignMisses += songMisses;
 
-				storyPlaylist.remove(storyPlaylist[0]);
+				//storyPlaylist.remove(storyPlaylist[0]);
+				var shawty = storyPlaylist.shift();
 
 				if (storyPlaylist.length <= 0)
 				{
@@ -3820,7 +3822,7 @@ class PlayState extends MusicBeatState
 					if(FlxTransitionableState.skipNextTransIn) {
 						CustomFadeTransition.nextCamera = null;
 					}
-					MusicBeatState.switchState(new StoryMenuState());
+					MusicBeatState.switchState(new MainMenuState());
 
 					// if ()
 					if(!ClientPrefs.getGameplaySetting('practice', false) && !ClientPrefs.getGameplaySetting('botplay', false)) {
@@ -3838,7 +3840,7 @@ class PlayState extends MusicBeatState
 				}
 				else
 				{
-					var difficulty:String = CoolUtil.getDifficultyFilePath();
+					var difficulty:String = "-hard";
 
 					trace('LOADING NEXT SONG');
 					trace(Paths.formatToSongPath(PlayState.storyPlaylist[0]) + difficulty);
